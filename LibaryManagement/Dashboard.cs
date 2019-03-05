@@ -107,5 +107,61 @@ namespace LibaryManagement
             //Whole Application Will Be Closed
             Application.Exit();            
         }
+
+        private void protfolioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Profile_Master obj = new Profile_Master();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void memberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Member_Master obj = new Member_Master();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void planToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Plan obj = new Plan();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void rackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Rack obj = new Rack();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void sectionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Section obj = new Section();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void secttionRackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sec_Rack_Map obj = new Sec_Rack_Map();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Change_Password obj = new Change_Password();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
     }
 }

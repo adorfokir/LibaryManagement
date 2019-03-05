@@ -18,7 +18,7 @@ C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\bin\Debug\Libar
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.csprojResolveAssemblyReference.cache
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Dashboard.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Login.resources
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.MDIParent1.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Properties.Resources.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Role.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.csproj.GenerateResource.Cache
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Profile_Master.resources

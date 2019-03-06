@@ -24,11 +24,18 @@ namespace LibaryManagement
 
         private void btnLogin(object sender, EventArgs e)
         {
-            //Click Button Show The Dashboard
-            Dashboard obj = new Dashboard();
-            obj.Show();
-            //Hide The Login Form
-            this.Hide();
+            if (txtName.Text == "admin" && txtPass.Text == "admin")
+            {
+                //Click Button Show The Dashboard
+                Dashboard obj = new Dashboard();
+                obj.Show();
+                //Hide The Login Form
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid UserName Or Password","Alert",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
         }
     }
 }

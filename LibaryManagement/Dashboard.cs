@@ -163,5 +163,37 @@ namespace LibaryManagement
             obj.StartPosition = FormStartPosition.CenterScreen;
             obj.Show();
         }
+
+        private void purchaseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Purchase obj = new Purchase();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void bookInRegisterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Book_In_Register obj = new Book_In_Register();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void memberTransectionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Book_Out_Register obj = new Book_Out_Register();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
+
+        private void memberTransectionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Member_Transection obj = new Member_Transection();
+            obj.MdiParent = this;
+            obj.StartPosition = FormStartPosition.CenterScreen;
+            obj.Show();
+        }
     }
 }

@@ -47,6 +47,7 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.memberTransectionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -139,7 +140,8 @@
             this.inventToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.purchaseToolStripMenuItem,
             this.bookInRegisterToolStripMenuItem,
-            this.memberTransectionToolStripMenuItem});
+            this.memberTransectionToolStripMenuItem,
+            this.memberTransectionToolStripMenuItem1});
             this.inventToolStripMenuItem.Name = "inventToolStripMenuItem";
             this.inventToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.inventToolStripMenuItem.Text = "Inventry";
@@ -149,18 +151,21 @@
             this.purchaseToolStripMenuItem.Name = "purchaseToolStripMenuItem";
             this.purchaseToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
             this.purchaseToolStripMenuItem.Text = "Purchase";
+            this.purchaseToolStripMenuItem.Click += new System.EventHandler(this.purchaseToolStripMenuItem_Click);
             // 
             // bookInRegisterToolStripMenuItem
             // 
             this.bookInRegisterToolStripMenuItem.Name = "bookInRegisterToolStripMenuItem";
             this.bookInRegisterToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
             this.bookInRegisterToolStripMenuItem.Text = "Book In Register";
+            this.bookInRegisterToolStripMenuItem.Click += new System.EventHandler(this.bookInRegisterToolStripMenuItem_Click);
             // 
             // memberTransectionToolStripMenuItem
             // 
             this.memberTransectionToolStripMenuItem.Name = "memberTransectionToolStripMenuItem";
-            this.memberTransectionToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.memberTransectionToolStripMenuItem.Text = "Member Transection";
+            this.memberTransectionToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.memberTransectionToolStripMenuItem.Text = "Book Out Register";
+            this.memberTransectionToolStripMenuItem.Click += new System.EventHandler(this.memberTransectionToolStripMenuItem_Click);
             // 
             // reportsToolStripMenuItem
             // 
@@ -183,6 +188,13 @@
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
+            // 
+            // memberTransectionToolStripMenuItem1
+            // 
+            this.memberTransectionToolStripMenuItem1.Name = "memberTransectionToolStripMenuItem1";
+            this.memberTransectionToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.memberTransectionToolStripMenuItem1.Text = "Member Transection";
+            this.memberTransectionToolStripMenuItem1.Click += new System.EventHandler(this.memberTransectionToolStripMenuItem1_Click);
             // 
             // Dashboard
             // 
@@ -226,6 +238,7 @@
         private System.Windows.Forms.ToolStripMenuItem bookInRegisterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem memberTransectionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem memberTransectionToolStripMenuItem1;
     }
 }
 

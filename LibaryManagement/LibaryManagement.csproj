@@ -70,6 +70,11 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Libary_ManagementDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,11 +137,17 @@
     <Compile Include="Sec_Rack_Map.Designer.cs">
       <DependentUpon>Sec_Rack_Map.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Change_Password.resx">
+      <DependentUpon>Change_Password.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member_Master.resx">
+      <DependentUpon>Member_Master.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profile_Master.resx">
       <DependentUpon>Profile_Master.cs</DependentUpon>
@@ -153,6 +164,20 @@
     <EmbeddedResource Include="Role.resx">
       <DependentUpon>Role.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sec_Rack_Map.resx">
+      <DependentUpon>Sec_Rack_Map.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Libary_ManagementDataSet.xsc">
+      <DependentUpon>Libary_ManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet.xss">
+      <DependentUpon>Libary_ManagementDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

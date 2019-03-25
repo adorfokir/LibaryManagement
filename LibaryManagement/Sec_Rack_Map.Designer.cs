@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Sec_Rack_Map
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(596, 266);
+            this.Name = "Sec_Rack_Map";
             this.Text = "Sec_Rack_Map";
+            this.Load += new System.EventHandler(this.Sec_Rack_Map_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

@@ -13,7 +13,7 @@ namespace LibaryManagement
     public partial class Login : Form
     {
         //sql connection 
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-BJS3K5M;Initial Catalog=Libary_Management;Integrated Security=True");
+        //SqlConnection con = new SqlConnection("Data Source=DESKTOP-BJS3K5M;Initial Catalog=Libary_Management;Integrated Security=True");
         public Login()
         {
             InitializeComponent();
@@ -26,7 +26,8 @@ namespace LibaryManagement
 
         private void btnLogin(object sender, EventArgs e)
         {
-            SqlDataAdapter sda = new SqlDataAdapter("select * from Profile_Master where Pro_User_id='"+txtName.Text+ "' and Pro_Password='"+txtPass.Text+"'",con);
+            Connection con = new Connection();
+            SqlDataAdapter sda = new SqlDataAdapter("select * from Profile_Master where Pro_User_id='"+txtName.Text+ "' and Pro_Password='"+txtPass.Text+"'",con.ActiveCon());
             DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows.Count == 1)

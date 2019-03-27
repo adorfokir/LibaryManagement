@@ -11,17 +11,17 @@ c:\users\ador\documents\visual studio 2015\Projects\LibaryManagement\LibaryManag
 c:\users\ador\documents\visual studio 2015\Projects\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Role.resources
 C:\Users\Ador\documents\visual studio 2015\Projects\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.MDIParent1.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\bin\Debug\LibaryManagement.exe.config
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.exe
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.pdb
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\bin\Debug\LibaryManagement.exe
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\bin\Debug\LibaryManagement.pdb
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.csprojResolveAssemblyReference.cache
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Change_Password.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Dashboard.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Login.resources
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Member_Master.resources
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Profile_Master.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Properties.Resources.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Role.resources
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.csproj.GenerateResource.Cache
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Profile_Master.resources
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Change_Password.resources
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Member_Master.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Sec_Rack_Map.resources
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.csproj.GenerateResource.Cache
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.exe
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.pdb

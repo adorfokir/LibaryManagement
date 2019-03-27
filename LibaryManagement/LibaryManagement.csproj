@@ -76,6 +76,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Libary_ManagementDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Libary_ManagementDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +183,17 @@
     </None>
     <None Include="Libary_ManagementDataSet.xss">
       <DependentUpon>Libary_ManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet1.xsc">
+      <DependentUpon>Libary_ManagementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet1.xss">
+      <DependentUpon>Libary_ManagementDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

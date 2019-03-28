@@ -43,17 +43,17 @@
             this.lblResult = new System.Windows.Forms.Label();
             this.libaryManagementDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.libary_ManagementDataSet11 = new LibaryManagement.Libary_ManagementDataSet1();
-            this.roleMasterBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.role_MasterTableAdapter = new LibaryManagement.Libary_ManagementDataSet1TableAdapters.Role_MasterTableAdapter();
             this.roleidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.roleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rolestatusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.roleMasterBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.libary_ManagementDataSet11 = new LibaryManagement.Libary_ManagementDataSet1();
+            this.role_MasterTableAdapter = new LibaryManagement.Libary_ManagementDataSet1TableAdapters.Role_MasterTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.libaryManagementDataSet1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roleMasterBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet11)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -71,6 +71,7 @@
             this.txt_id.Enabled = false;
             this.txt_id.Location = new System.Drawing.Point(156, 45);
             this.txt_id.Name = "txt_id";
+            this.txt_id.ReadOnly = true;
             this.txt_id.Size = new System.Drawing.Size(211, 20);
             this.txt_id.TabIndex = 1;
             // 
@@ -192,20 +193,6 @@
             this.dataGridView1.TabIndex = 11;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
-            // libary_ManagementDataSet11
-            // 
-            this.libary_ManagementDataSet11.DataSetName = "Libary_ManagementDataSet1";
-            this.libary_ManagementDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // roleMasterBindingSource
-            // 
-            this.roleMasterBindingSource.DataMember = "Role_Master";
-            this.roleMasterBindingSource.DataSource = this.libary_ManagementDataSet11;
-            // 
-            // role_MasterTableAdapter
-            // 
-            this.role_MasterTableAdapter.ClearBeforeFill = true;
-            // 
             // roleidDataGridViewTextBoxColumn
             // 
             this.roleidDataGridViewTextBoxColumn.DataPropertyName = "Role_id";
@@ -223,6 +210,20 @@
             this.rolestatusDataGridViewTextBoxColumn.DataPropertyName = "Role_status";
             this.rolestatusDataGridViewTextBoxColumn.HeaderText = "Role_status";
             this.rolestatusDataGridViewTextBoxColumn.Name = "rolestatusDataGridViewTextBoxColumn";
+            // 
+            // roleMasterBindingSource
+            // 
+            this.roleMasterBindingSource.DataMember = "Role_Master";
+            this.roleMasterBindingSource.DataSource = this.libary_ManagementDataSet11;
+            // 
+            // libary_ManagementDataSet11
+            // 
+            this.libary_ManagementDataSet11.DataSetName = "Libary_ManagementDataSet1";
+            this.libary_ManagementDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // role_MasterTableAdapter
+            // 
+            this.role_MasterTableAdapter.ClearBeforeFill = true;
             // 
             // Role
             // 
@@ -247,8 +248,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.libaryManagementDataSet1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roleMasterBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

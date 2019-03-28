@@ -116,33 +116,11 @@ namespace LibaryManagement
             obj.Show();
         }
 
-        private void memberToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Member_Master obj = new Member_Master();
-            obj.MdiParent = this;
-            obj.StartPosition = FormStartPosition.CenterScreen;
-            obj.Show();
-        }
+        
 
         private void planToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Plan obj = new Plan();
-            obj.MdiParent = this;
-            obj.StartPosition = FormStartPosition.CenterScreen;
-            obj.Show();
-        }
-
-        private void rackToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Rack obj = new Rack();
-            obj.MdiParent = this;
-            obj.StartPosition = FormStartPosition.CenterScreen;
-            obj.Show();
-        }
-
-        private void sectionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Section obj = new Section();
             obj.MdiParent = this;
             obj.StartPosition = FormStartPosition.CenterScreen;
             obj.Show();
@@ -164,13 +142,7 @@ namespace LibaryManagement
             obj.Show();
         }
 
-        private void purchaseToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Purchase obj = new Purchase();
-            obj.MdiParent = this;
-            obj.StartPosition = FormStartPosition.CenterScreen;
-            obj.Show();
-        }
+       
 
         private void bookInRegisterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -188,9 +160,9 @@ namespace LibaryManagement
             obj.Show();
         }
 
-        private void memberTransectionToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void booksOutsideToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Member_Transection obj = new Member_Transection();
+            Books_Outside obj = new Books_Outside();
             obj.MdiParent = this;
             obj.StartPosition = FormStartPosition.CenterScreen;
             obj.Show();

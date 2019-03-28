@@ -17,7 +17,6 @@ C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\Libar
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Change_Password.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Dashboard.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Login.resources
-C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Member_Master.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Profile_Master.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Properties.Resources.resources
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Role.resources
@@ -25,3 +24,7 @@ C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\Libar
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.csproj.GenerateResource.Cache
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.exe
 C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.pdb
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Plan.resources
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Books_Outside.resources
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Book_In_Register.resources
+C:\Users\Ador\Documents\GitHub\LibaryManagement\LibaryManagement\obj\Debug\LibaryManagement.Book_Out_Register.resources

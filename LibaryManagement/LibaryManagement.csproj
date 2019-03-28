@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Books_Outside.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Books_Outside.Designer.cs">
+      <DependentUpon>Books_Outside.cs</DependentUpon>
+    </Compile>
     <Compile Include="Book_In_Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,23 +87,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Libary_ManagementDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Libary_ManagementDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet4.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Member_Master.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Member_Master.Designer.cs">
-      <DependentUpon>Member_Master.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Member_Transection.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Member_Transection.Designer.cs">
-      <DependentUpon>Member_Transection.cs</DependentUpon>
     </Compile>
     <Compile Include="Plan.cs">
       <SubType>Form</SubType>
@@ -113,29 +122,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Purchase.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Purchase.Designer.cs">
-      <DependentUpon>Purchase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Rack.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Rack.Designer.cs">
-      <DependentUpon>Rack.cs</DependentUpon>
-    </Compile>
     <Compile Include="Role.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Role.Designer.cs">
       <DependentUpon>Role.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Section.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Section.Designer.cs">
-      <DependentUpon>Section.cs</DependentUpon>
     </Compile>
     <Compile Include="Sec_Rack_Map.cs">
       <SubType>Form</SubType>
@@ -143,6 +134,15 @@
     <Compile Include="Sec_Rack_Map.Designer.cs">
       <DependentUpon>Sec_Rack_Map.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Books_Outside.resx">
+      <DependentUpon>Books_Outside.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_In_Register.resx">
+      <DependentUpon>Book_In_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Out_Register.resx">
+      <DependentUpon>Book_Out_Register.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Change_Password.resx">
       <DependentUpon>Change_Password.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,8 +152,8 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member_Master.resx">
-      <DependentUpon>Member_Master.cs</DependentUpon>
+    <EmbeddedResource Include="Plan.resx">
+      <DependentUpon>Plan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profile_Master.resx">
       <DependentUpon>Profile_Master.cs</DependentUpon>
@@ -194,6 +194,39 @@
     </None>
     <None Include="Libary_ManagementDataSet1.xss">
       <DependentUpon>Libary_ManagementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet2.xsc">
+      <DependentUpon>Libary_ManagementDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet2.xss">
+      <DependentUpon>Libary_ManagementDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet3.xsc">
+      <DependentUpon>Libary_ManagementDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet3.xss">
+      <DependentUpon>Libary_ManagementDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet4.xsc">
+      <DependentUpon>Libary_ManagementDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet4.xss">
+      <DependentUpon>Libary_ManagementDataSet4.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

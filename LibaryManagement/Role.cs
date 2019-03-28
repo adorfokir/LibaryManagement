@@ -16,7 +16,9 @@ namespace LibaryManagement
         public Role()
         {
             InitializeComponent();
-                       
+            CreateNew();
+
+
         }
 
         private void btn_new_Click(object sender, EventArgs e)
@@ -39,7 +41,7 @@ namespace LibaryManagement
             sda.Fill(dt);
             txt_id.Text = dt.Rows[0][0].ToString();
         }
-
+        //Data Save
         private void btn_save_Click(object sender, EventArgs e)
         {
             AddRecords();

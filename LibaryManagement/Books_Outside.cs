@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LibaryManagement
 {
-    public partial class Rack : Form
+    public partial class Books_Outside : Form
     {
-        public Rack()
+        public Books_Outside()
         {
             InitializeComponent();
         }

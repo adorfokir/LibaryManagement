@@ -29,11 +29,14 @@ namespace LibaryManagement
         //Random Number Generate
         void CreateNew()
         {
+			DataTable dt = new DataTable();
             Connection con = new Connection();
             SqlDataAdapter sda = new SqlDataAdapter("Proc_New_Plan", con.ActiveCon());
             sda.SelectCommand.CommandType = CommandType.StoredProcedure;
-            DataTable dt = new DataTable();
             sda.Fill(dt);
+			
+			
+			//dATABASR data readonly
             txtPlanID.Text = dt.Rows[0][0].ToString();
         }
         //Save Button

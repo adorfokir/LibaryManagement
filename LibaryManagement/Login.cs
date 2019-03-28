@@ -40,13 +40,14 @@ namespace LibaryManagement
             }
             else
             {
-                MessageBox.Show("Invalid UserName Or Password","Alert",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                //MessageBox.Show("Invalid UserName Or Password","Alert",MessageBoxButtons.OK,MessageBoxIcon.Error);
+				 MessageBox.Show("Invalid UserName Or Password!","Alert",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+				// ------------------------------ change sometings
         }
 
         private void txtPass_TextChanged(object sender, EventArgs e)

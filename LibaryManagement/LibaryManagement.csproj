@@ -87,6 +87,46 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Libary_ManagementDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Libary_ManagementDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_ManagementDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_ManagementDataSet17.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Libary_ManagementDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -219,6 +259,94 @@
     </None>
     <None Include="Libary_ManagementDataSet1.xss">
       <DependentUpon>Libary_ManagementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet10.xsc">
+      <DependentUpon>Libary_ManagementDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet10.xss">
+      <DependentUpon>Libary_ManagementDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet11.xsc">
+      <DependentUpon>Libary_ManagementDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet11.xss">
+      <DependentUpon>Libary_ManagementDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet12.xsc">
+      <DependentUpon>Libary_ManagementDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet12.xss">
+      <DependentUpon>Libary_ManagementDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet13.xsc">
+      <DependentUpon>Libary_ManagementDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet13.xss">
+      <DependentUpon>Libary_ManagementDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet14.xsc">
+      <DependentUpon>Libary_ManagementDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet14.xss">
+      <DependentUpon>Libary_ManagementDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet15.xsc">
+      <DependentUpon>Libary_ManagementDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet15.xss">
+      <DependentUpon>Libary_ManagementDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet16.xsc">
+      <DependentUpon>Libary_ManagementDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet16.xss">
+      <DependentUpon>Libary_ManagementDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet17.xsc">
+      <DependentUpon>Libary_ManagementDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_ManagementDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_ManagementDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_ManagementDataSet17.xss">
+      <DependentUpon>Libary_ManagementDataSet17.xsd</DependentUpon>
     </None>
     <None Include="Libary_ManagementDataSet2.xsc">
       <DependentUpon>Libary_ManagementDataSet2.xsd</DependentUpon>

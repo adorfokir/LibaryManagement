@@ -46,18 +46,19 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.libary_ManagementDataSet4 = new LibaryManagement.Libary_ManagementDataSet4();
-            this.userProfileBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.user_ProfileTableAdapter = new LibaryManagement.Libary_ManagementDataSet4TableAdapters.User_ProfileTableAdapter();
             this.userIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mobileDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userProfileBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.libary_ManagementDataSet4 = new LibaryManagement.Libary_ManagementDataSet4();
+            this.user_ProfileTableAdapter = new LibaryManagement.Libary_ManagementDataSet4TableAdapters.User_ProfileTableAdapter();
+            this.lblResult = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userProfileBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet4)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -102,6 +103,7 @@
             // 
             // txtID
             // 
+            this.txtID.Enabled = false;
             this.txtID.Location = new System.Drawing.Point(113, 58);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(195, 20);
@@ -197,6 +199,7 @@
             this.btnDelete.TabIndex = 14;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSave
             // 
@@ -223,22 +226,10 @@
             this.dataGridView1.DataSource = this.userProfileBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(58, 322);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(642, 150);
             this.dataGridView1.TabIndex = 16;
-            // 
-            // libary_ManagementDataSet4
-            // 
-            this.libary_ManagementDataSet4.DataSetName = "Libary_ManagementDataSet4";
-            this.libary_ManagementDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // userProfileBindingSource
-            // 
-            this.userProfileBindingSource.DataMember = "User_Profile";
-            this.userProfileBindingSource.DataSource = this.libary_ManagementDataSet4;
-            // 
-            // user_ProfileTableAdapter
-            // 
-            this.user_ProfileTableAdapter.ClearBeforeFill = true;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // userIDDataGridViewTextBoxColumn
             // 
@@ -276,11 +267,35 @@
             this.statusDataGridViewTextBoxColumn.HeaderText = "Status";
             this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
             // 
+            // userProfileBindingSource
+            // 
+            this.userProfileBindingSource.DataMember = "User_Profile";
+            this.userProfileBindingSource.DataSource = this.libary_ManagementDataSet4;
+            // 
+            // libary_ManagementDataSet4
+            // 
+            this.libary_ManagementDataSet4.DataSetName = "Libary_ManagementDataSet4";
+            this.libary_ManagementDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // user_ProfileTableAdapter
+            // 
+            this.user_ProfileTableAdapter.ClearBeforeFill = true;
+            // 
+            // lblResult
+            // 
+            this.lblResult.AutoSize = true;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.Location = new System.Drawing.Point(250, 276);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(0, 20);
+            this.lblResult.TabIndex = 17;
+            // 
             // Profile_Master
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 554);
+            this.Controls.Add(this.lblResult);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnDelete);
@@ -302,8 +317,8 @@
             this.Text = "Profile_Master";
             this.Load += new System.EventHandler(this.Profile_Master_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userProfileBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.libary_ManagementDataSet4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,5 +352,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn mobileDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Label lblResult;
     }
 }

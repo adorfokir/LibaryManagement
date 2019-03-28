@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnChange = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.txtNew = new System.Windows.Forms.TextBox();
             this.txtOld = new System.Windows.Forms.TextBox();
-            this.txtName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblResult = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button2
+            // btnChange
             // 
-            this.button2.Location = new System.Drawing.Point(301, 197);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Change";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnChange.Location = new System.Drawing.Point(301, 197);
+            this.btnChange.Name = "btnChange";
+            this.btnChange.Size = new System.Drawing.Size(75, 23);
+            this.btnChange.TabIndex = 15;
+            this.btnChange.Text = "Change";
+            this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
-            // button1
+            // btnCancel
             // 
-            this.button1.Location = new System.Drawing.Point(202, 197);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Cancel";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(202, 197);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 14;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // txtNew
             // 
@@ -69,13 +69,6 @@
             this.txtOld.Name = "txtOld";
             this.txtOld.Size = new System.Drawing.Size(174, 20);
             this.txtOld.TabIndex = 12;
-            // 
-            // txtName
-            // 
-            this.txtName.Location = new System.Drawing.Point(202, 71);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(174, 20);
-            this.txtName.TabIndex = 11;
             // 
             // label3
             // 
@@ -97,29 +90,28 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "Old Password";
             // 
-            // label1
+            // lblResult
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(86, 72);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 20);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "UserName";
+            this.lblResult.AutoSize = true;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.lblResult.Location = new System.Drawing.Point(79, 51);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(0, 20);
+            this.lblResult.TabIndex = 16;
             // 
             // Change_Password
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 290);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.btnChange);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.txtNew);
             this.Controls.Add(this.txtOld);
-            this.Controls.Add(this.txtName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "Change_Password";
             this.Text = "Change_Password";
             this.ResumeLayout(false);
@@ -128,14 +120,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtOld;
         private System.Windows.Forms.TextBox txtNew;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnChange;
+        private System.Windows.Forms.Label lblResult;
     }
 }

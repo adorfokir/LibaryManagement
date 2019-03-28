@@ -17,6 +17,18 @@ namespace LibaryManagement
         {
             InitializeComponent();
         }
-	    
+        Login lg = new Login();
+        //Password Change
+        private void btnChange_Click(object sender, EventArgs e)
+        {
+            String ID = lg.getID();
+            Connection con = new Connection();
+            SqlCommand cmd = new SqlCommand(@"UPDATE [dbo].[Profile_Master]
+   SET [Pro_Password] = '" + txtNew.Text + "' WHERE [id] =" + ID, con.ActiveCon());
+            cmd.ExecuteNonQuery();
+            lblResult.Text = "Password Update Successfully !!";
+
+
+        }
     }
 }

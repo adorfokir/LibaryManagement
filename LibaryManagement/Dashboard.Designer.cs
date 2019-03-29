@@ -39,10 +39,11 @@
             this.inventToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bookInRegisterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.memberTransectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.booksOutsideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.booksOutsideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -129,6 +130,13 @@
             this.memberTransectionToolStripMenuItem.Text = "Book Out Register";
             this.memberTransectionToolStripMenuItem.Click += new System.EventHandler(this.memberTransectionToolStripMenuItem_Click);
             // 
+            // booksOutsideToolStripMenuItem
+            // 
+            this.booksOutsideToolStripMenuItem.Name = "booksOutsideToolStripMenuItem";
+            this.booksOutsideToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.booksOutsideToolStripMenuItem.Text = "Books Outside";
+            this.booksOutsideToolStripMenuItem.Click += new System.EventHandler(this.booksOutsideToolStripMenuItem_Click);
+            // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -145,18 +153,24 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // booksOutsideToolStripMenuItem
+            // label1
             // 
-            this.booksOutsideToolStripMenuItem.Name = "booksOutsideToolStripMenuItem";
-            this.booksOutsideToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.booksOutsideToolStripMenuItem.Text = "Books Outside";
-            this.booksOutsideToolStripMenuItem.Click += new System.EventHandler(this.booksOutsideToolStripMenuItem_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label1.Location = new System.Drawing.Point(129, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(320, 39);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Welcome To Admin";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 453);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
@@ -190,6 +204,7 @@
         private System.Windows.Forms.ToolStripMenuItem bookInRegisterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem memberTransectionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem booksOutsideToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 
